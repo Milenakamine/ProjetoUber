@@ -7,7 +7,6 @@ namespace ProjetoUber
         private string titular;
 
         private string bandeira;
-
         private string cvv;
 
         public string cadastrar(){

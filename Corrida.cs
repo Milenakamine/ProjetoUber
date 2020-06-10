@@ -2,9 +2,9 @@ namespace ProjetoUber
 {
     public class Corrida
     {
-        private string localInicio;
+        public string  localInicio{get; set;}
 
-        private string localChegada;
+        public string localChegada {get; set;}
 
         private string statusCorrida;
 
@@ -12,8 +12,6 @@ namespace ProjetoUber
 
         private string passageiro;
 
-        public string cancelar(){
-            return"Cancelamento de corrida";
-        }
+     
     }
 }

@@ -2,9 +2,9 @@ namespace ProjetoUber
 {
     public class Motorista : Usuario
     {
-        private string carro;
+        public string carro {get; set;}
 
-        private string placa;
+        public string placa {get; set;}
 
     
         
